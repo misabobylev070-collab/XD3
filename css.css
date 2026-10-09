@@ -1,0 +1,95 @@
+body {
+    color: rgb(20, 57, 160);
+    background-image: url("https://i.imgur.com/5GhzUSw.png");
+    background-size: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h3 {
+    font-size: 200%;
+    border-bottom: 6px solid deeppink;
+    margin-bottom: 0px;
+    text-align: center;
+    color: deeppink;
+}
+
+nav {
+    width: 8%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 29px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+nav h2 {
+    color: deeppink;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(20, 57, 160);
+}
+
+.container {
+    display: flex;
+    height: 335vh;
+    width: 100%;
+}
+
+.vertical-separator {
+    background: url('https://i.imgur.com/N1774tJ.gif') repeat-y;
+    width: 15px;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.content {
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+table {
+    background: deepskyblue;
+    margin: 0 auto;
+    width: 50%;
+}
+
+th {
+    background: pink;
+}
+
+td {
+    background: white;
+    padding: 5px;
+    text-align: center;
+}
+
+img {
+    margin: 0px;
+    max-width: 100%;
+}
+
+p {
+    line-height: 1.6;
+    text-indent: 0px;
+    margin-left: 0;
+}
+
+p.indent {
+    text-indent: 100px;
+}
